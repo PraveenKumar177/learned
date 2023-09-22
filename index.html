@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href=link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Coiny&family=Sono:wght@600;700&display=swap" rel="stylesheet"/>"
+    <link href="style.css" rel="style.css"/>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>1st project</title>
+</head>
+<body class="body">
+    <div class="container">
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="today i learned logo" height="55px" width="55px"/>
+        <h1>today i learned </h1>
+        </div>
+        <button class="btn btn_large btn_select">share a fact</button>   
+    </header>
+    <form class="form-fact hidden">
+       <input type="text" placeholder="Shared a fact with the world..."/>
+       <span class="tag">200</span>
+       <input type="text" placeholder="Trust worthy sourse..."/>
+       <select>
+        <option value="">Choose category:</option>
+        <option value="tecnology">Technology</option>
+        <option value="science">Science</option>
+        <option value="finance">Finance</option>
+       </select>
+       <button class="btn btn_large ">post</button>
+    </form>
+    <main class="main">
+        <aside>
+            <div>
+                <ul >
+                    <li><button class="btn btn_categories " >All</button></li>
+                    <li><button class="btn_category" style="background-color: #f97316;">History</button></li>
+                    <li><button class="btn_category" style="background-color: #db2777 ;">Entertainment</button></li>
+                </ul>
+            </div>
+        </aside>
+    <section>
+       <ul>
+        <li class="list">
+        <p class="fact">React is being devolop by Meta(formarly facebook)<a class="Source" href="#">(Source)</a>   
+        </p>  
+        <span style="background-color: #3b82f6;">technology</span>
+        <div class="vote_button">
+            <button class="voting_btn">👍24</button>
+            <button class="voting_btn">🤯9</button>
+            <button class="voting_btn">⛔️4</button>
+        </div>
+        </li>
+        <li class="list">
+            <p class="fact">The shortest war in history lasted 38 minutes! It was between Britain and Zanzibar
+                on augest 27,1996.It was over the ascension of the next sultan in Zanzibar and resulted
+                in british victory.<a class="Source" href="#">(Source)</a>
+                </p>
+            <span style="background-color: #f97316;">History</span>
+            <div class="vote_button">
+                <button class="voting_btn">👍7</button>
+                <button class="voting_btn">🤯8</button>
+                <button class="voting_btn">⛔️2</button>
+            </div>
+        </li>
+            
+           
+        <li class="list">
+            <p class="fact">As of 2023,Breaking Bad is the highest -rated TV shoe in IMDB
+                 with a rating of 9.4/10. <a class="Source" href="#" >(Source)</a>
+            </p>
+            <span style="background-color: #db2777;">Entertainment</span>
+            <div class="vote_button"> 
+                <button class="voting_btn">👍11</button>
+                <button class="voting_btn">🤯5</button>
+                <button class="voting_btn">⛔️2</button>
+            </div>
+        </li>
+        </ul>    
+
+        
+
+
+
+    </section>
+    </main>
+
+    </div>
+    <script type="text/javascript" src=script.js></script>
+</body>
+
+</html>
